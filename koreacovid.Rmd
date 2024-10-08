@@ -55,8 +55,16 @@ colPerc(table1)
 From the data we can see that the total number of females alive in 12 more the the number of males. For every 1.4% of female deaths there are 3% of males deaths. With a ratio of 56:44. However, the males do outweigh the females death ratio with a 64:36 ratio. Showing almost double the amount of  deaths. 
 
 
-## Inferential results 
+## Inferential results
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+The Null gave us with a estimated about and on observed about of females to males alive. The sample ratio is 44:25 deaths male while the Null expected 30:39 deaths females. Shwoing that the males death rate is a lot higher than the females deaths which is excepted. 
 
 
 
