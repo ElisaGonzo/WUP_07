@@ -45,6 +45,15 @@ The female group had more people alive than dead while the male group had many d
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+From the data we can see that the total number of females alive in 12 more the the number of males. For every 1.4% of female deaths there are 3% of males deaths. With a ratio of 56:44. However, the males do outweigh the females death ratio with a 64:36 ratio. Showing almost double the amount of  deaths. 
+
 
 ## Inferential results 
 
