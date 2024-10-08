@@ -64,9 +64,8 @@ fisher.test(table1)
 ```
 
 
-The Null gave us with a estimated about and on observed about of females to males alive. The sample ratio is 44:25 deaths male while the Null expected 30:39 deaths females. Shwoing that the males death rate is a lot higher than the females deaths which is excepted. 
-
-
+The Null gave us with a estimated about and on observed about of females to males alive. The sample ratio is 44:25 deaths male while the Null expected 30:39 deaths females. Showing that the males death rate is a lot higher than the females deaths which is excepted. 
 
 ## Conclusions
 
+The graphical result showed that about 55% female to the males 45% survival rate. Meaning there is a major difference between the death rate of males and the death rate of females. With males dying at a higher rate. Secondly, the numerical result showed for every 1.4% of female deaths there are 3% of males deaths. With a ratio of 56:44. Laslty the 
