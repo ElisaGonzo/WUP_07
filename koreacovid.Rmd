@@ -30,18 +30,18 @@ state of a patient must be died or alive - we adjust that as well
 
 
 
-
-
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
+
+
+The female group had more people alive than dead while the male group had many deaths. About 55% female to the males 45% survival rate. Meaning there is a major difference between the death rate of males and the death eate of females. With males dying at a higher rate. 
   
-
-
-
-
-
   
 ## Numerical results
 
